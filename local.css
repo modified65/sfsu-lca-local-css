@@ -1,0 +1,146 @@
+/**
+  * SF State web template overrides
+  */
+#main p {
+  margin:2px 0 10px;
+}
+
+#main h2 {
+  margin:20px 0 5px;
+}
+
+#main ol li, 
+#main ul li {
+  margin:0 0 5px 0;
+}
+
+/* See j studies bullted lists */
+/*#main ol, 
+#main ul {
+  margin:2px 0 20px 22px;
+}*/
+
+.view-Directory #main img {
+  float: none;
+  margin: 0 0 0 5px;
+}
+
+#sidebar ul {
+  margin:3px 0 10px;
+}
+
+#sidebar .block ul {
+  padding:0;
+}
+
+#promobox {
+  background:transparent;
+}
+
+/* #imagestripe, 
+#imagebox {
+  height:90px;
+} */
+
+.clrImgFlt {
+  clear:both;
+}
+/**
+  * Drupal 6 overrides
+  */
+#block-aggregator-feed-1 .item-list ul li {
+  margin: 0; /* remove left margin space from feed in block */
+}
+
+/**
+  * CKEditor
+  */
+/*.cke_panel_frame {
+  background:white;
+}
+
+.cke_panel_frame h2 {
+  color: #886600;
+  font-size: 130%;
+}
+
+.cke_panel_frame h3 {
+  color: #464666;
+  font-size: 120%;
+}*/
+
+#main .brief {
+  overflow: hidden;
+  float: none;
+}
+
+.content .error {
+  color: red;
+}
+
+/* Elections-related styles */
+.page-open-committee-positions #main h2 {
+  font-size: 180%;
+}
+
+.page-open-committee-positions #main .brief {
+  padding: 20px 0;
+}
+
+.page-open-committee-positions .view-header {
+  padding: 0 0 20px 0;
+}
+
+/* Nomination & statement forms */
+/*
+.not-front #imagestripe, .not-front #nav, .not-front #sidebar {
+  display: none;
+}
+
+.not-front #main {
+  margin: 0;
+}
+
+.not-front #main select {
+  display: block;
+  font-size: 130%;
+}
+
+.not-front .form-item {
+  margin-bottom: 40px;
+}
+
+.not-front .form-required {
+  color: red;
+}
+
+.not-front .form-text {
+  display: block;
+  font-size: 120%;
+}
+
+.not-front .description {
+  color: #505066;
+  font-size: 120%;
+  font-style: italic;
+}
+
+.not-front #main .views-field-nothing p {
+  margin-left: 20px;
+  font-size: 100%;
+}
+
+.not-front #main .views-field-nothing ol,
+.not-front #main .views-field-nothing ul {
+  margin-left: 35px;
+  font-size: 90%;
+}
+
+.not-front .form-submit {
+  font-size: 150%;
+}
+
+.not-front .resizable-textarea textarea {
+  width: 75%;
+}
+*/
